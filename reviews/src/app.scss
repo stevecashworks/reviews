@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    
+}
+.personImg{
+    width: 300px;
+    position: relative;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 1px solid blue;
+    margin-left:80px ;
+}
+
+.review{
+    width: 500px;
+     position: relative;
+     margin: 0 auto;
+     margin-left: 280px;
+     border: 1px solid black;
+}
+.name{
+    color: red;
+    text-align:center;
+    transform: scale(1.5);
+}
+.comment{
+font-size: 30px; 
+width: 500px;
+text-align: center;
+
+}
+.qoutec{
+    
+    font-size: 40px;
+}
+.quote{
+    background-color: blue;
+    
+    color:white;
+    font-size: 40px;
+    margin: 0 auto;
+    align-self: center;
+    justify-self: center;
+    margin-left: 240px;
+}
+.sliding{
+    display: flex;
+    width: 700px;
+    position: relative;
+    left: -100px;
+    justify-content: space-around;
+}
+.btn{
+    background-color: transparent;
+     border: none;
+}
+.chev{
+ font-size: 40px;
+ color: blue;
+}
+.btn:hover{
+    background-color: rgb(247, 247, 247);
+}
